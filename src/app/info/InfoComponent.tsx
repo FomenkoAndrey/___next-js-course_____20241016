@@ -1,3 +1,3 @@
-const InfoComponent = () => <div>Info Component</div>
+const InfoComponent = () => <h1 className="header">Info Component</h1>
 
 export default InfoComponent

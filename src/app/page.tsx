@@ -4,6 +4,9 @@ export default function Home() {
   return (
     <div>
       <div>
+        <Link href="/info" className="menu-link">
+          Info
+        </Link>
         <Link href="/posts" className="menu-link">
           Posts
         </Link>
