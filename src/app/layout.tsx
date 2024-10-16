@@ -18,31 +18,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header
-          style={{
-            backgroundColor: 'lightsteelblue',
-            padding: '40px',
-            marginBottom: '20px'
-          }}
-        >
-          Header
+        <header className="px-5 py-14 bg-blue-100">
+          <div className="max-w-4xl mx-auto text-center text-2xl">Header</div>
         </header>
-        <main
-          style={{
-            backgroundColor: 'lightcoral',
-            padding: '40px',
-            marginBottom: '20px'
-          }}
-        >
-          {children}
+        <main className="px-5 py-8">
+          <div className="max-w-4xl mx-auto">{children}</div>
         </main>
-        <footer
-          style={{
-            backgroundColor: 'lightseagreen',
-            padding: '40px'
-          }}
-        >
-          Footer
+        <footer className="px-5 py-10 bg-indigo-400">
+          <div className="max-w-4xl mx-auto text-center text-xl">Footer</div>
         </footer>
       </body>
     </html>

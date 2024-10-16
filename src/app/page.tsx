@@ -16,6 +16,9 @@ export default function Home() {
         <Link href="/register" className="menu-link">
           Register
         </Link>
+        <Link href="/dashboard" className="menu-link">
+          Dashboard
+        </Link>
       </div>
       <h1>Hello from Next.js</h1>
     </div>

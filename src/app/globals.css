@@ -13,3 +13,7 @@
 .header {
   @apply text-3xl font-bold my-5;
 }
+
+.card {
+  @apply p-20 shadow-md border border-gray-300 flex justify-center items-center h-full;
+}
